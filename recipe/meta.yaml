@@ -1,13 +1,13 @@
 {% set name = "wagtail-seo" %}
-{% set version = "2.4.1" %}
+{% set version = "2.5.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/wagtail-seo-{{ version }}.tar.gz
-  sha256: fd9ff0f840a2800f30421182bd101615da236bc8431227f9aeb19bcc7adb87ac
+  url: https://github.com/coderedcorp/wagtail-seo/archive/v{{ version }}.tar.gz
+  sha256: 374b7617c67c845171ef8b08339621d9d2c9e01aad7df66340e8aeedf6aaee24
 
 build:
   noarch: python
@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - wagtail >=3.0,<6.0
+    - wagtail >=3.0,<7.0
 
 test:
   imports:
