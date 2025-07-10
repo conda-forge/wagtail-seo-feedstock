@@ -9,6 +9,8 @@ Package license: BSD-3-Clause
 
 Summary: Search engine and social media optimization for Wagtail.
 
+Development: https://github.com/coderedcorp/wagtail-seo
+
 Current build status
 ====================
 
