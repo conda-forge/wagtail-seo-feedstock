@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: wagtail-seo
-  version: "3.1.0"
+  version: "3.1.1"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/wagtail_seo-${{ version }}.tar.gz
-  sha256: 039371e5c69b8a59ba82baab24585034fbc8c230ad1ad0703896db381c14c20c
+  sha256: 8dbd2648f9c5c1a6c185a2253bd505bc50242867b0a3eacfa938332444b80923
 
 build:
   number: 0
